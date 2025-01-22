@@ -6,7 +6,7 @@ import userModel from "../models/userModel.js";
 
 //placing user order for frontend
 const placeOrder = async (req, res) => {
-  const client_url = "https://food-app-swart-xi.vercel.app";
+  const client_url = "https://localhost:5174";
 
   try {
     const newOrder = new orderModel({

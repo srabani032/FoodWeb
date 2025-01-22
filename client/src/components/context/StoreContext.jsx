@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "https://8d65-103-170-177-18.ngrok-free.app";
+  const url = 'http://localhost:4000';
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
